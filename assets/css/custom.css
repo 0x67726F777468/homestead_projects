@@ -1,0 +1,71 @@
+/* Section One */
+#one {
+  position: relative;
+}
+.fancy-design-header {
+  margin-bottom: 20px;
+}
+.homestead-projects {
+  transform: translate(3px, 45px);
+  max-width: 350px;
+  text-align: center;
+  position: absolute;
+  font-size: 23px;
+  text-transform: uppercase;
+  display: inline-flex;
+}
+.homestead-projects > * {
+  margin: 0 10px 0 -8px;
+}
+.H1 {
+  transform: translate(4px, 18px) rotate(158deg);
+}
+.o1 {
+  transform: translate(3px, 12px) rotate(-16deg);
+}
+.m1 {
+  transform: translate(2px, 8px) rotate(-15deg);
+} 
+.e1 {
+  transform: translate(3px, 4px) rotate(-12deg);
+}
+.s1 {
+  transform: translate(3px, 2px) rotate(-10deg);
+}
+.t1 {
+  transform: translate(2px, 0px) rotate(-7deg);
+}
+.e2 {
+  transform: translate(2px, -1px) rotate(-6deg);
+}
+.a1 {
+  transform: translate(2px, -2px) rotate(-2deg);
+}
+.d1 {
+  transform: translate(2px, -1px);
+}
+.P1 {
+  transform: translate(2px, -1px) rotate(3deg);
+}
+.r1 {
+  transform: translate(2px, 0px) rotate(7deg);
+}
+.o2 {
+  transform: translate(2px, 2px) rotate(16deg);
+}
+.j1 {
+  transform: translate(1px, 5px) rotate(15deg);
+}
+.e3 {
+  transform: translate(2px, 8px) rotate(13deg);
+}
+.c1 {
+  transform: translate(1px, 11px) rotate(17deg);
+}
+.t2 {
+  transform: translate(1px, 15px) rotate(13deg);
+}
+.s2 {
+  transform: translate(1px, 19px) rotate(20deg);
+}
+/* Homestead Text */
