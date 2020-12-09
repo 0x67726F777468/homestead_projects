@@ -66,6 +66,9 @@
   transform: translate(1px, 15px) rotate(13deg);
 }
 .s2 {
-  transform: translate(1px, 19px) rotate(20deg);
+  transform: translate(1px, 19px) rotate(18deg);
 }
-/* Homestead Text */
+.get-in-touch {
+  text-align: center;
+  width: 100%;
+}
