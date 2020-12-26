@@ -105,17 +105,23 @@
 							<div class="col-8 col-12-small">
 								<form name="contact-form" method="POST" action="https://formspree.io/f/xaylpzpp">
 									<div class="row gtr-uniform gtr-50">
-										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										<div class="col-6 col-12-xsmall"><input type="text" name="phone" id="phone" placeholder="Phone" /></div>
+										<div class="col-6 col-12-xsmall">
+                      <input type="text" name="name" id="name" placeholder="Name" /></div>
+										<div class="col-6 col-12-xsmall">
+                      <input type="email" name="email" id="email" placeholder="Email" /></div>
+                    <div class="col-6 col-12-xsmall">
+                      <input type="text" name="phone" id="phone" placeholder="Phone" /></div>
+                    <div class="col-12">
+                      <input type="text" name="address" placeholder="Address" /></div>
                     <!-- <div class="col-6 col-12-xsmall"><input type="text" name="project-type" id="project-type" /></div> -->
                     <!-- <label for="project-type">Project Type:</label> -->
                     <select name="project-type">
                       <option value="">Project Type:</option>
-                      <option value="farm">Farm</option>
-                      <option value="ranch">Ranch</option>
                       <option value="homeowner">Homeowner</option>
+                      <option value="homestead">Homestead</option>
+                      <option value="farm">Farm</option>
                       <option value="commerical">Commercial</option>
+                      <option value="maintence">Ongoing Maintenance</option>
                       <option value="other">Other</option>
                     </select>
                     <!-- <div class="col-6 col-12-xsmall"><input type="text" name="service-type" id="service-type" placeholder="Email" /></div> -->
@@ -123,13 +129,19 @@
                     <select name="service-type">
                       <option value="">Service Desired:</option>
                       <option value="bathroom-remodel">Bathroom Remodel</option>
-                      <option value="concrete-masonry">Concrete or Masonry</option>
-                      <option value="fencing">Fencing</option>
-                      <option value="handyman">Handyman Services</option>
-                      <option value="home-repairs">Home Repairs</option>
                       <option value="kitchen-remodel">Kitchen Remodel</option>
+                      <option value="drywall">Drywall</option>
+                      <option value="home-repairs">Home Repairs</option>
+                      <option value="handyman">Handyman Services</option>
+                      <option value="fencing">Fencing</option>
+                      <option value="firepit">Fire Pit Installation</option>
                       <option value="landscaping">Landscaping</option>
-                      <option value="painting">Painting</option>
+                      <option value="porch-deck">Porch/Deck Installation</option>
+                      <option value="painting">Painting Interior/Exterior</option>
+                      <option value="flooring">Flooring</option>
+                      <option value="yard">Yard Clean Up</option>
+                      <option value="pressure-washing">Pressure Washing</option>
+                      <option value="rending">Field/Yard Maintenance (Rending)</option>
                       <!-- <option value="ranch-hand">Ranch Hand - Stable Work</option> -->
                     </select>
 										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
