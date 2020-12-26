@@ -72,3 +72,20 @@
   text-align: center;
   width: 100%;
 }
+input::placeholder {
+  color: #292219 !important;
+}
+select {
+  color: #292219 !important;
+}
+option {
+  color: #292219 !important;
+}
+textarea::placeholder {
+  color: #292219 !important;
+}
+@media (max-width: 587px) {
+  .major h1 {
+    height: 130px !important;
+  }
+}
