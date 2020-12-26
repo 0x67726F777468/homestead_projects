@@ -110,4 +110,12 @@ textarea::placeholder {
   justify-content: center;
   font-size: 24px;
   font-weight: bold;
+  margin-bottom: 20px;
+}
+.company-phone {
+  margin-bottom: 20px;
+}
+.discount-title {
+  text-decoration: underline;
+  margin: 0px;
 }
